@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/ingress-nginx/controller:v1.0.0
+FROM  --platform=linux/arm64 grafana/grafana:9.3.2 
